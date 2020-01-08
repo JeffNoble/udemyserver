@@ -1,7 +1,7 @@
 {
   "name": "server1",
   "version": "1.0.0",
-  "description": "",
+  "description": "building a udemy course with my own tweaks",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/JeffNoble/udemyserver.git"
   },
   "author": "jeff noble",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JeffNoble/udemyserver/issues"
   },
@@ -20,6 +20,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.4",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-validator": "^6.3.1",
     "gravatar": "^1.8.0",
