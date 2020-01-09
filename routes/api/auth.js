@@ -14,7 +14,7 @@ const User = require('../../models/User');
 
 
 // @route  GET api/auth
-// @desc   Test Route
+// @desc   return auth info 
 // @access Public
 router.get('/', auth, async (req, res) => {
     try {
